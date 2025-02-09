@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+
+a{
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(209, 203, 203);
+    z-index: 100;
+}
+
+header a{
+    font-size: 1rem;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a {
+    font-size: 1rem;    
+}
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: beige; */
+    position: relative;
+    padding: 15em 0em 12em;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.intro-image {
+    width: 25%;
+    border: 1px;
+    border-radius: 30px;
+    filter: grayscale(.5);
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    height: auto;
+}
+
+.intro-text h3 {
+    font-size: 50px;
+    font-weight: 350;
+}
+
+#intro-spacer {
+    padding: 10px;
+}
+
+h5 {
+    font-weight: 300; 
+}
+
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+    #intro-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: beige; */
+        position: relative;
+        padding: 15em 0em 12em;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .intro-image {
+        width: 40%;
+        border: 1px;
+        border-radius: 30px;
+    } 
+
+    .intro-text {
+        text-align: center;
+        font-size: 18px;
+        display: inline-block;
+        height: auto;
+    }
+
+    #intro-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: beige; */
+        position: relative;
+        padding: 15em 0em 12em;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
